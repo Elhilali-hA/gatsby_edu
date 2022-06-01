@@ -1,0 +1,116 @@
+.four_header{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.four_title h1{
+    width: 30%;
+    font-size: 44px;
+    padding: 6%;
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    z-index: 1;
+
+}
+
+.four_ul ul{
+    list-style: none;
+    font-size: 15px;
+    height: 145px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    float: right;
+    
+    
+}
+
+.four_ul ul li:hover{
+    color: orangered;
+    text-decoration: 5px solid underline;
+    text-decoration-color: rgba(255, 68, 0, 0.59);   
+}
+
+
+
+
+.four_ul {
+    width: 40%;
+    position: absolute;
+    top: 54%;
+    right: 5%;
+    padding: 2%;
+}
+
+.below_four_header{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.below_four_header .left{
+    position: relative;
+    width: 40%;
+}
+
+.below_four_header .left h1 {
+    font-size:250px;
+    color:#add8e6;
+    opacity: 0.7;
+    margin: 0;
+    margin-left: -24px;
+}
+
+.below_four_header .left .content {
+    position:absolute;
+    top:35%;
+    left:5%;    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+
+.below_four_header .left .content h4{
+    margin-bottom:-10px
+}
+
+.below_four_header .right{
+    padding-left: 5%;
+    margin-right:7%;
+    width: 50%;
+    text-align: left;
+    display: grid;
+    grid-template-rows: 250px 250px;
+    gap:10px
+}
+
+.below_four_header .right .product{
+width: 80%;
+    height: 250px;
+    text-align:center;
+    display:column;
+    justify-content:center;
+    align-items: center;
+    border-left: 0.5px solid rgba(128, 128, 128, 0.516);
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.477);
+    z-index: 1;
+}
+.below_four_header .right .product1{
+width: 80%;
+    height: 250px;
+    text-align:center;
+    display:column;
+    justify-content:center;
+    align-items: center;
+    border-left: 0.5px solid rgba(128, 128, 128, 0.571);
+    z-index: 1;
+
+
+}
+

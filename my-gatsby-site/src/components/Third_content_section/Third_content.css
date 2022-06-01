@@ -1,0 +1,99 @@
+.third-content{
+    background-color: white;
+    margin-left: 10%;
+    z-index: 1;
+}
+
+.head_content{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 94%;
+    display:flex;
+    justify-content:center;
+    height: 334px;
+
+}
+
+.head_content .left{
+    width: 83%;
+    padding: 20px;
+    text-align: left;
+}
+
+.etoile{
+    color:orange;
+}
+
+.head_content .left .bruce{
+    font-size: 15px;
+    color: gray
+}
+
+.head_content .left p span{
+    font-size: 12px Bold;
+    color: rgb(0, 0, 0)
+}
+
+
+
+.third-content_img{
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 36%;
+    height: 300px;
+    background-image: url("../../assets/img/man_hat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cercle_third{
+    position:absolute;
+    top: -26px;
+    left: -17px;
+    background-color: rgba(232, 73, 15);
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    text-align: center;
+    
+}
+
+.below_head {
+    margin-top: 2rem;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+
+}
+
+.below_head .right{
+    padding:5px;
+    align-self: center;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+   
+}
+
+.below_head .right a{
+    text-decoration:none;
+    color: rgba(232, 73, 15)
+}
+
+.below_head .left{
+    padding:5px;
+    position: relative;
+}
+
+.channel{
+    background-image: url("../../assets/img/channels.png");
+    width: 100%;
+    height: 200px;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+

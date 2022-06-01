@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    background:transparent;
+    background-color: none;
+    z-index: 1;
+}
+.list-nav{
+    width: 50%
+}
+ul{
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}

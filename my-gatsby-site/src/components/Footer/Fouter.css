@@ -1,0 +1,126 @@
+.footer{
+    display: flex;
+    justify-content:space-between;
+    background-color:black;
+    height:700px;
+    color:white;
+
+}
+
+.footer .left{
+    width: 48%;
+    display:grid;
+    grid-template-rows: 80% 20%;
+    border-right: 1px solid grey;
+}
+
+.left_top{
+    height: 100%;
+    grid-area: 1/1/2/2;
+    align-content: space-around;
+}
+
+.left_top h6{
+    color: gray;
+}
+.left_bottom{
+    border-top: 1px solid grey;
+    grid-area: 2/1/2/2;
+
+
+    
+}
+
+.footer .right{
+    width: 80%;
+    display:grid;
+    grid-template-rows: 20% 60%;
+    
+}
+
+.phone{
+    padding: 5px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.email{
+    padding: 5px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+.follow{
+    padding: 5px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.left_bottom{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.left_bottom img{
+    margin-left:3px
+}
+
+.right_bottom{
+    display: grid;
+    grid-template-columns: 42% 38%;
+    justify-content: end;
+    grid-template-rows: 49% 50%;
+    gap: 70px;
+    
+    
+}
+
+.right_bottom h4{
+    margin-left: 45px;
+}
+
+
+
+.right_bottom ul{
+    margin:auto;
+    text-align: left;
+    height: 68%;
+    display:flex;
+    flex-direction:column;
+    align-items:space-between;
+    color:gray
+}
+
+.right_top{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center
+}
+
+.right_top input{
+    color:black;
+    height: 30px;
+    width: 40%;
+    background-color:rgba(255,255,255,0.3)
+}
+
+.right_top h4{
+   font-size: 20px
+}
+
+.fb_icons{
+    display: flex;
+    width: 50%;
+    /* text-align:center; */
+    margin:auto;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,49 @@
+.container_six{
+    background-color: #add8e6;
+    height: 500px;
+    width:100%;
+    text-align: center;
+    display: flex;
+    justify-content:center
+}
+
+.container_six .num{
+    color: #fff;
+    font-size: 225px;
+}
+
+.container_six .txt{
+   
+    font-size: 41px;
+    align-self: center;
+    margin-top: 10%;
+    margin-left: 51px;
+}
+
+.below_container_six{
+    display: flex;
+    justify-content:space-around;
+    background-color:#add8e6;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    height: 300px;
+}
+
+.icon_container{
+    padding: 5%;
+    
+}
+
+.icon_container:hover{  
+    background-color:white;
+    border-bottom: 2px solid orangered;
+   
+
+}
+
+
+.icon_active:hover {
+    color: orange
+}
+
